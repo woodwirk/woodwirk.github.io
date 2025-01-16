@@ -1,0 +1,12 @@
+name: cbe3300
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pyserial
+  - matplotlib
+  - conda-forge::pillow # force conda-forge source to resolve plotting errors
+  - numpy
+  - pandas
+  - jupyter
+  # - conda-forge::minimalmodbus # Optional, for RS485 devices
